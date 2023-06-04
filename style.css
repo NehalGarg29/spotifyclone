@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+body{
+    background-color: aquamarine;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Shalimar', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 95px;
+    padding: 0 8px 0 0;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+.container{
+    min-height: 55vh;
+    background-color: black;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#MyProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+   margin-top: 30px;
+}
+.songitem{
+  height: 35px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+.songitem img{
+width: 25px;
+height: 30px;
+margin: 0 13px;
+border-radius: 45px;
+}
+.timestamp{
+    margin: 0 13px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Shalimar', cursive;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
